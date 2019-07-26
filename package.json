@@ -1,13 +1,13 @@
 {
-  "name": "cryptokitties-salesauction",
+  "name": "kittypulse",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sudeepb02/cryptokitties-salesauction",
-    "create-local": "graph create --node http://localhost:8020/ sudeepb02/cryptokitties-salesauction",
-    "remove-local": "graph remove --node http://localhost:8020/ sudeepb02/cryptokitties-salesauction",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 sudeepb02/cryptokitties-salesauction"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sudeepb02/kittypulse",
+    "create-local": "graph create --node http://localhost:8020/ sudeepb02/kittypulse",
+    "remove-local": "graph remove --node http://localhost:8020/ sudeepb02/kittypulse",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 sudeepb02/kittypulse"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.13.3",
