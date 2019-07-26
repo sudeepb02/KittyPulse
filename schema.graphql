@@ -54,3 +54,22 @@ type DailyStat @entity {
   valueCreatedToday: BigInt!
   valueCompletedToday: BigInt!
 }
+
+type SiringSummary @entity {
+  id: ID!
+  auctionsCreated: Int!
+  auctionsCompleted: Int!
+  auctionsCancelled: Int!
+  valueCreated: BigInt!
+  valueCompleted: BigInt!
+  valueCancelled: BigInt!
+}
+
+type DailyStatSiring @entity {
+  id: ID!		#will store date
+  auctionsCreatedToday: Int!
+  auctionsCompletedToday: Int!
+  auctionsCancelledToday: Int!
+  valueCreatedToday: BigInt!
+  valueCompletedToday: BigInt!
+}
